@@ -1,23 +1,7 @@
-import java.util.Scanner;
-
-public class Atividade6 {
-    
-    public static void main(String[] args){
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Digite um numero inteiro: ");
-        int NumeroInteiro1 = sc.nextInt();
-
-        System.out.print("Digite outro numero inteiro: ");
-        int NumeroInteiro2 = sc.nextInt();
-
-        System.out.print("Digite mais um numero inteiro: ");
-        int NumeroInteiro3 = sc.nextInt();
-
-        int SomaDosValores = NumeroInteiro1 + NumeroInteiro2 + NumeroInteiro3;
-
-        System.out.print("A soma dos valores é: " + SomaDosValores);
-
+public class Exercicio6 {
+    public static void main(String[] args) {
+        int C = 23;
+        int F = C*(9/5)+32;
+        System.out.println("Temperatura em graus celsius: "+C+"\n Em fahrenheit: "+F);
     }
- }
+}
