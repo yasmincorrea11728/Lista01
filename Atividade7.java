@@ -1,23 +1,13 @@
-import java.util.Scanner;
-
-public class Atividade7 {
+public class Exercicio7 {
+    public static void main(String[] args) {
+        double ValorTotal = 780000.00;
+        double PrimeiroGanhador = (ValorTotal*46)/100;
+        double SegundoGanhador = (ValorTotal*32)/100;
+        double TerceiroGanhador = ValorTotal - (PrimeiroGanhador + SegundoGanhador)  ;
+        System.out.println("Primeiro Ganhador: "+PrimeiroGanhador);
+        System.out.println("Segundo Ganhador: "+SegundoGanhador);
+        System.out.println("Terceiro Ganhador: "+TerceiroGanhador);
     
-    public static void main(String[] args){
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Digite um numero inteiro: ");
-        int NumeroInteiro1 = sc.nextInt();
-
-        System.out.print("Digite outro numero inteiro: ");
-        int NumeroInteiro2 = sc.nextInt();
-
-        System.out.print("Digite mais um numero inteiro: ");
-        int NumeroInteiro3 = sc.nextInt();
-
-        int SomaDosValores = NumeroInteiro1 + NumeroInteiro2 + NumeroInteiro3;
-
-        System.out.print("A soma dos valores é: " + SomaDosValores);
-
     }
- }
+    
+}
