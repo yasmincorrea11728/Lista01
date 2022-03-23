@@ -1,23 +1,13 @@
-import java.util.Scanner;
+public class Exercicio5 {
 
-public class Atividade5 {
-    
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        int dolar = 50;
 
-        System.out.print("Digite um numero inteiro: ");
-        int NumeroInteiro1 = sc.nextInt();
+        double real = dolar * 5.2;
 
-        System.out.print("Digite outro numero inteiro: ");
-        int NumeroInteiro2 = sc.nextInt();
+        System.out.println("DOLAR: "+ dolar +"\n REAL: "+real);
 
-        System.out.print("Digite mais um numero inteiro: ");
-        int NumeroInteiro3 = sc.nextInt();
+    }     
 
-        int SomaDosValores = NumeroInteiro1 + NumeroInteiro2 + NumeroInteiro3;
-
-        System.out.print("A soma dos valores é: " + SomaDosValores);
-
-    }
- }
+}
